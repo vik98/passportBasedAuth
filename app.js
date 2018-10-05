@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(require("express-session")({
-  secret: "Fuck every hoe",
+  secret: "Random",
   resave: false,
   saveUninitialized: false
 }));
